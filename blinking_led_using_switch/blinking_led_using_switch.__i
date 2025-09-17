@@ -1,0 +1,6 @@
+-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork 
+-I C:\Keil\ARM\RV31\INC
+-I C:\Keil\ARM\CMSIS\Include
+-I C:\Keil\ARM\Inc\Philips
+
+-o .\blinking_led_using_switch.o --omf_browse .\blinking_led_using_switch.crf --depend .\blinking_led_using_switch.d "blinking_led_using_switch.c"
