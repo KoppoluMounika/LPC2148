@@ -1,0 +1,31 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Project:</h2>
+E:\LPC2148 course\11_ADC\ADC.uvproj
+Project File Date:  09/18/2025
+
+<h2>Output:</h2>
+Build target 'Target 1'
+compiling ADC.c...
+linking...
+Program Size: Code=7636 RO-data=192 RW-data=0 ZI-data=1296  
+FromELF: creating hex file...
+".\ADC.axf" - 0 Error(s), 0 Warning(s).
+</pre>
+</body>
+</html>
+
+      AD0CR |= (1 << 24);                 // Start conversion now
+ADC.c(45): error:  #20: identifier "AD0GDR" is undefined
+      while (!(AD0GDR & (1U << 31)));     // Wait until DONE
+ADC.c: 0 warnings, 3 errors
+".\ADC.axf" - 3 Error(s), 0 Warning(s).
+Target not created
+ted
+ly
+          sprintf(msg, "ADC Value = %u\r\n", adc_value);
+ADC.c: 1 warning, 3 errors
+".\ADC.axf" - 3 Error(s), 1 Warning(s).
+Target not created
