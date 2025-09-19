@@ -1,0 +1,25 @@
+#ifndef __REG51_H__
+#define __REG51_H__
+
+sfr P0  = 0x80;
+sfr P1  = 0x90;
+sfr P2  = 0xA0;
+sfr P3  = 0xB0;
+sfr PSW = 0xD0;
+sfr ACC = 0xE0;
+sfr B   = 0xF0;
+sfr SP  = 0x81;
+sfr DPL = 0x82;
+sfr DPH = 0x83;
+sfr IE  = 0xA8;
+sfr IP  = 0xB8;
+sfr TCON= 0x88;
+sfr TMOD= 0x89;
+sfr TL0 = 0x8A;
+sfr TL1 = 0x8B;
+sfr TH0 = 0x8C;
+sfr TH1 = 0x8D;
+sfr SCON= 0x98;
+sfr SBUF= 0x99;
+
+#endif
