@@ -1,0 +1,74 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Project:</h2>
+E:\freeRTOS_LPC\02_TaskCreationWithParameters\task_creation_with_parameters.uvproj
+Project File Date:  09/23/2025
+
+<h2>Output:</h2>
+Rebuild target 'Target 1'
+assembling Startup.s...
+compiling task_creation_with_perameters.c...
+C:\Keil\FreeRTOS_V9.0.0rc2\FreeRTOS\Source\include\FreeRTOSConfig.h(172): warning:  #1-D: last line of file ends without a newline
+   
+task_creation_with_perameters.c: 1 warning, 0 errors
+compiling list.c...
+C:\Keil\FreeRTOS_V9.0.0rc2\FreeRTOS\Source\include\FreeRTOSConfig.h(172): warning:  #1-D: last line of file ends without a newline
+   
+C:\Keil\FreeRTOS_V9.0.0rc2\FreeRTOS\Source\list.c: 1 warning, 0 errors
+compiling queue.c...
+C:\Keil\FreeRTOS_V9.0.0rc2\FreeRTOS\Source\include\FreeRTOSConfig.h(172): warning:  #1-D: last line of file ends without a newline
+   
+C:\Keil\FreeRTOS_V9.0.0rc2\FreeRTOS\Source\queue.c: 1 warning, 0 errors
+compiling tasks.c...
+C:\Keil\FreeRTOS_V9.0.0rc2\FreeRTOS\Source\include\FreeRTOSConfig.h(172): warning:  #1-D: last line of file ends without a newline
+   
+C:\Keil\FreeRTOS_V9.0.0rc2\FreeRTOS\Source\tasks.c: 1 warning, 0 errors
+compiling timers.c...
+C:\Keil\FreeRTOS_V9.0.0rc2\FreeRTOS\Source\include\FreeRTOSConfig.h(172): warning:  #1-D: last line of file ends without a newline
+   
+C:\Keil\FreeRTOS_V9.0.0rc2\FreeRTOS\Source\timers.c: 1 warning, 0 errors
+compiling port.c...
+C:\Keil\FreeRTOS_V9.0.0rc2\FreeRTOS\Source\include\FreeRTOSConfig.h(172): warning:  #1-D: last line of file ends without a newline
+   
+C:\Keil\FreeRTOS_V9.0.0rc2\FreeRTOS\Source\portable\RVDS\ARM7_LPC21xx\port.c: 1 warning, 0 errors
+assembling portASM.s...
+compiling heap_2.c...
+C:\Keil\FreeRTOS_V9.0.0rc2\FreeRTOS\Source\include\FreeRTOSConfig.h(172): warning:  #1-D: last line of file ends without a newline
+   
+C:\Keil\FreeRTOS_V9.0.0rc2\FreeRTOS\Source\portable\MemMang\heap_2.c: 1 warning, 0 errors
+linking...
+Program Size: Code=10980 RO-data=32 RW-data=92 ZI-data=10036  
+FromELF: creating hex file...
+".\task_creation_with_parameters.axf" - 0 Error(s), 7 Warning(s).
+</pre>
+</body>
+</html>
+hout a newline
+   
+C:\Keil\FreeRTOS_V9.0.0rc2\FreeRTOS\Source\portable\MemMang\heap_2.c: 1 warning, 0 errors
+".\task_creation_with_parameters.axf" - 2 Error(s), 7 Warning(s).
+Target not created
+9.0.0rc2\FreeRTOS\Source\portable\RVDS\ARM7_LPC21xx\port.c(274): error:  #20: identifier "T0MR0" is undefined
+        T0MR0 = ulCompareMatch;
+C:\Keil\FreeRTOS_V9.0.0rc2\FreeRTOS\Source\portable\RVDS\ARM7_LPC21xx\port.c(277): error:  #20: identifier "T0MCR" is undefined
+        T0MCR = portRESET_COUNT_ON_MATCH | portINTERRUPT_ON_MATCH;
+C:\Keil\FreeRTOS_V9.0.0rc2\FreeRTOS\Source\portable\RVDS\ARM7_LPC21xx\port.c(280): error:  #20: identifier "VICIntSelect" is undefined
+        VICIntSelect &= ~( portTIMER_VIC_CHANNEL_BIT );
+C:\Keil\FreeRTOS_V9.0.0rc2\FreeRTOS\Source\portable\RVDS\ARM7_LPC21xx\port.c(281): error:  #20: identifier "VICIntEnable" is undefined
+        VICIntEnable |= portTIMER_VIC_CHANNEL_BIT;
+C:\Keil\FreeRTOS_V9.0.0rc2\FreeRTOS\Source\portable\RVDS\ARM7_LPC21xx\port.c(287): error:  #20: identifier "VICVectAddr0" is undefined
+                VICVectAddr0 = ( uint32_t ) vPreemptiveTick;
+C:\Keil\FreeRTOS_V9.0.0rc2\FreeRTOS\Source\portable\RVDS\ARM7_LPC21xx\port.c(295): error:  #20: identifier "VICVectCntl0" is undefined
+        VICVectCntl0 = portTIMER_VIC_CHANNEL | portTIMER_VIC_ENABLE;
+C:\Keil\FreeRTOS_V9.0.0rc2\FreeRTOS\Source\portable\RVDS\ARM7_LPC21xx\port.c(299): error:  #20: identifier "T0TCR" is undefined
+        T0TCR = portENABLE_TIMER;
+C:\Keil\FreeRTOS_V9.0.0rc2\FreeRTOS\Source\portable\RVDS\ARM7_LPC21xx\port.c: 0 warnings, 9 errors
+assembling portASM.s...
+compiling heap_2.c...
+C:\Keil\FreeRTOS_V9.0.0rc2\FreeRTOS\Source\include\FreeRTOSConfig.h(18): error:  #20: identifier "TaskHandle_t" is undefined
+  void vApplicationStackOverflowHook(TaskHandle_t xTask, char *pcTaskName);
+C:\Keil\FreeRTOS_V9.0.0rc2\FreeRTOS\Source\portable\MemMang\heap_2.c: 0 warnings, 1 error
+".\task_creation_with_parameters.axf" - 15 Error(s), 1 Warning(s).
+Target not created

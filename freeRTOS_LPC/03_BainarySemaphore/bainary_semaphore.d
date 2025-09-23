@@ -1,0 +1,17 @@
+.\bainary_semaphore.o: bainary_semaphore.c
+.\bainary_semaphore.o: C:\Keil\ARM\ARMCC\bin\..\include\stdlib.h
+.\bainary_semaphore.o: C:\Keil\FreeRTOS_V9.0.0rc2\FreeRTOS\Source\include\FreeRTOS.h
+.\bainary_semaphore.o: C:\Keil\ARM\ARMCC\bin\..\include\stddef.h
+.\bainary_semaphore.o: C:\Keil\ARM\ARMCC\bin\..\include\stdint.h
+.\bainary_semaphore.o: C:\Keil\FreeRTOS_V9.0.0rc2\FreeRTOS\Source\include\FreeRTOSConfig.h
+.\bainary_semaphore.o: C:\Keil\ARM\Inc\Philips\lpc214x.h
+.\bainary_semaphore.o: C:\Keil\FreeRTOS_V9.0.0rc2\FreeRTOS\Source\include\projdefs.h
+.\bainary_semaphore.o: C:\Keil\FreeRTOS_V9.0.0rc2\FreeRTOS\Source\include\portable.h
+.\bainary_semaphore.o: C:\Keil\FreeRTOS_V9.0.0rc2\FreeRTOS\Source\include\deprecated_definitions.h
+.\bainary_semaphore.o: C:\Keil\FreeRTOS_V9.0.0rc2\FreeRTOS\Source\include\..\..\Source\portable\RVDS\ARM7_LPC21xx\portmacro.h
+.\bainary_semaphore.o: C:\Keil\FreeRTOS_V9.0.0rc2\FreeRTOS\Source\include\mpu_wrappers.h
+.\bainary_semaphore.o: C:\Keil\FreeRTOS_V9.0.0rc2\FreeRTOS\Source\include\task.h
+.\bainary_semaphore.o: C:\Keil\FreeRTOS_V9.0.0rc2\FreeRTOS\Source\include\list.h
+.\bainary_semaphore.o: uart0.h
+.\bainary_semaphore.o: C:\Keil\FreeRTOS_V9.0.0rc2\FreeRTOS\Source\include\semphr.h
+.\bainary_semaphore.o: C:\Keil\FreeRTOS_V9.0.0rc2\FreeRTOS\Source\include\queue.h
