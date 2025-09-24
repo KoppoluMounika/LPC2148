@@ -8,6 +8,7 @@
 ".\heap_2.o"
 ".\port.o"
 ".\portasm.o"
---ro-base 0x00000000 --entry 0x00000000 --rw-base 0x40000000 --strict --summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--strict --scatter ".\bainary_semaphore.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
 --info sizes --info totals --info unused --info veneers
 --list ".\bainary_semaphore.map" -o .\bainary_semaphore.axf

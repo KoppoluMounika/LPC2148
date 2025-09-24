@@ -1,12 +1,12 @@
 Dependencies for Project 'bainary_semaphore', Target 'Target 1': (DO NOT MODIFY !)
 F (.\Startup.s)(0x4F5858F0)(--cpu ARM7TDMI --pd "__EVAL SETA 1" -g --apcs=interwork -IC:\Keil\FreeRTOS_V9.0.0rc2\FreeRTOS\Source\portable\RVDS\ARM7_LPC21xx-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Philips--list .\startup.lst --xref -o .\startup.o --depend .\startup.d)
-F (.\bainary_semaphore.c)(0x68D29010)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -IC:\Keil\FreeRTOS_V9.0.0rc2\FreeRTOS\Demo\Common\include -IC:\Keil\FreeRTOS_V9.0.0rc2\FreeRTOS\Source\portable\RVDS\ARM7_LPC21xx -IC:\Keil\FreeRTOS_V9.0.0rc2\FreeRTOS\Source\include-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Philips-DARM7_LPC21xx_KEIL_RVDS -DKEIL_THUMB_INTERWORK-o .\bainary_semaphore.o --omf_browse .\bainary_semaphore.crf --depend .\bainary_semaphore.d)
+F (.\bainary_semaphore.c)(0x68D2CE5E)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -IC:\Keil\FreeRTOS_V9.0.0rc2\FreeRTOS\Demo\Common\include -IC:\Keil\FreeRTOS_V9.0.0rc2\FreeRTOS\Source\portable\RVDS\ARM7_LPC21xx -IC:\Keil\FreeRTOS_V9.0.0rc2\FreeRTOS\Source\include-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Philips-DARM7_LPC21xx_KEIL_RVDS -DKEIL_THUMB_INTERWORK-o .\bainary_semaphore.o --omf_browse .\bainary_semaphore.crf --depend .\bainary_semaphore.d)
+I (C:\Keil\ARM\Inc\Philips\LPC214x.h)(0x4F585AA4)
 I (C:\Keil\ARM\ARMCC\include\stdlib.h)(0x4EB0F5AC)
 I (C:\Keil\FreeRTOS_V9.0.0rc2\FreeRTOS\Source\include\FreeRTOS.h)(0x68D10D45)
 I (C:\Keil\ARM\ARMCC\include\stddef.h)(0x4EB0F5A6)
 I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x4EB0F5AC)
 I (C:\Keil\FreeRTOS_V9.0.0rc2\FreeRTOS\Source\include\FreeRTOSConfig.h)(0x68D28C5F)
-I (C:\Keil\ARM\Inc\Philips\lpc214x.h)(0x4F585AA4)
 I (C:\Keil\FreeRTOS_V9.0.0rc2\FreeRTOS\Source\include\projdefs.h)(0x68D10D45)
 I (C:\Keil\FreeRTOS_V9.0.0rc2\FreeRTOS\Source\include\portable.h)(0x68D10D45)
 I (C:\Keil\FreeRTOS_V9.0.0rc2\FreeRTOS\Source\include\deprecated_definitions.h)(0x68D10D45)
@@ -14,7 +14,6 @@ I (C:\Keil\FreeRTOS_V9.0.0rc2\FreeRTOS\Source\portable\RVDS\ARM7_LPC21xx\portmac
 I (C:\Keil\FreeRTOS_V9.0.0rc2\FreeRTOS\Source\include\mpu_wrappers.h)(0x68D10D45)
 I (C:\Keil\FreeRTOS_V9.0.0rc2\FreeRTOS\Source\include\task.h)(0x68D10D45)
 I (C:\Keil\FreeRTOS_V9.0.0rc2\FreeRTOS\Source\include\list.h)(0x68D10D45)
-I (uart0.h)(0x68D29182)
 I (C:\Keil\FreeRTOS_V9.0.0rc2\FreeRTOS\Source\include\semphr.h)(0x68D10D45)
 I (C:\Keil\FreeRTOS_V9.0.0rc2\FreeRTOS\Source\include\queue.h)(0x68D10D45)
 F (C:\Keil\FreeRTOS_V9.0.0rc2\FreeRTOS\Source\list.c)(0x68D10D45)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -IC:\Keil\FreeRTOS_V9.0.0rc2\FreeRTOS\Demo\Common\include -IC:\Keil\FreeRTOS_V9.0.0rc2\FreeRTOS\Source\portable\RVDS\ARM7_LPC21xx -IC:\Keil\FreeRTOS_V9.0.0rc2\FreeRTOS\Source\include-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Philips-DARM7_LPC21xx_KEIL_RVDS -DKEIL_THUMB_INTERWORK-o .\list.o --omf_browse .\list.crf --depend .\list.d)
